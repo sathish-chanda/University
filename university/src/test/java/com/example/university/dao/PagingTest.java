@@ -12,12 +12,11 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
-
+import org.springframework.boot.test.context.SpringBootTest;
 /**
  * Test Paging and Sorting Query
  */
-@ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = { PersistenceJPAConfig.class })
+@SpringBootTest
 class PagingTest {
     @Autowired
     private StaffDao staffDao;

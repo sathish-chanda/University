@@ -14,12 +14,13 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import static com.example.university.business.CourseFilter.filterBy;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.springframework.boot.test.context.SpringBootTest;
+
 
 /**
  * Test Criteria-based queries
  */
-@ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = { PersistenceJPAConfig.class })
+@SpringBootTest
 public class CriteriaQueryTest {
 
     @Autowired
