@@ -1,6 +1,5 @@
 package com.example.university.dao;
 
-import com.example.university.PersistenceJPAConfig;
 import com.example.university.business.UniversityService;
 import com.example.university.domain.Staff;
 import org.junit.jupiter.api.Test;

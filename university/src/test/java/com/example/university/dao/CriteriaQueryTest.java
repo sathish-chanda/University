@@ -1,6 +1,5 @@
 package com.example.university.dao;
 
-import com.example.university.PersistenceJPAConfig;
 import com.example.university.business.CourseFilter;
 import com.example.university.business.DynamicQueryService;
 import com.example.university.business.UniversityService;
